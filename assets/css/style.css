@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+    background-color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 22px;
+    padding: 15px;
+    color: #727272;
+}
+
+nav a:hover {
+    background-color: #39aae1;
+    color: white;
+}
+
+
+#banner {
+    display: flex;
+    justify-content: center;
+    background-image:url(../images/img1.jpg);
+    background-position:center;
+    background-size: cover;
+    height: 670px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 990px;
+}
+
+.banner_cima {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    flex: 1;   
+}
+
+.banner_cima h1 {
+    font-size: 70px;
+    color: white;
+    text-shadow: 1px 2px 0px #555555;
+    margin: 0;
+    padding: 0;
+    width: 400px;
+}
+
+.banner_cima h2 {
+    text-shadow: 0px 1px 0px #555555;
+    font-size: 20px;
+    color: white;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+    width: 300px;
+}
+
+.banner_baixo {
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+    color: white;
+    
+}
+
+#div1 {
+    padding: 20px;
+    height: 170px;
+    flex: 1;
+    background-color: #39aae1;
+    font-size: 21px;
+}
+
+#div1 p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+
+#div1 a {
+    background-color: #39aae1;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    border: 1px solid white;
+    font-size: 14px;
+}
+
+#div2 {
+    padding: 20px;
+    height: 170px;
+    flex: 1;
+    background-color: #0079c7;
+    font-size: 21px;
+}
+
+#div2 p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+
+#div2 a {
+    background-color: #0079c7;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    border: 1px solid white;
+    font-size: 14px;
+}
+
+
+#div3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    height: 170px;
+    flex: 1;
+    background-color: #2b4c99;
+    font-size: 21px;
+}
+
+#div3 .div3b {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #506cad;
+    font-size: 12px;
+}
+
+
+
+
+
+
