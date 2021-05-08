@@ -3,7 +3,10 @@ body {
     padding: 0;
     font-family: Arial;
     box-sizing: border-box;
+    margin-bottom: 50px;
 }
+
+/*cabeçalho*/
 
 header {
     display: flex;
@@ -160,6 +163,79 @@ nav a:hover {
     border-bottom: 1px solid #506cad;
     font-size: 12px;
 }
+
+/*corpo da pagina*/
+
+#geral {
+    display: flex;
+    justify-content: center;
+}
+
+.container section {
+    background-color: white;
+    color: black;
+}
+.container aside {
+    background-color: white;
+    color: black;
+}
+
+#geral section {
+    flex: 2;
+}
+
+#geral aside {
+    flex: 1;
+}
+
+/*corpo da pagina - Departamentos*/
+
+.widget_title {
+    margin-top: 30px;
+}
+
+.widget_title_text {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.widget_title_bar {
+    background-color: #39aae1;
+    width: 50px;
+    height: 2px;
+    margin-top: 10px;
+}
+
+.noticia_area {
+    margin-top: 20px;
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    width: 330px;
+    height: 500px;
+}
+
+.noticias {
+    height: 150px;
+    width: 150px;
+    background-color: #39aae1;
+}
+
+/*corpo da pagina - Marque um Consulta*/
+
+.widget_contact {
+    margin-top: 10px;
+    display: flex;
+}
+
+.widget_contact li {
+    margin-bottom: 30px;
+    padding-top: 20px;
+    border-top: #727272 solid 1px;
+}
+
 
 
 
