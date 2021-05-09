@@ -1,9 +1,11 @@
+* {
+    box-sizing:border-box ;
+}
+
 body {
     margin: 0;
     padding: 0;
     font-family: Arial;
-    box-sizing: border-box;
-    margin-bottom: 50px;
 }
 
 /*cabeçalho*/
@@ -164,6 +166,16 @@ nav a:hover {
     font-size: 12px;
 }
 
+#div2 a:hover, #div1 a:hover {
+    transition: all 0.3s linear;
+    height:30px;
+    width: 70px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    box-shadow: 6px 6px 4px black;
+}
+
 /*corpo da pagina*/
 
 #geral {
@@ -220,7 +232,7 @@ nav a:hover {
 .noticias {
     height: 150px;
     width: 150px;
-    background-color: #39aae1;
+    background-color: #0079c7;;
 }
 
 /*corpo da pagina - Marque um Consulta*/
@@ -236,9 +248,115 @@ nav a:hover {
     border-top: #727272 solid 1px;
 }
 
+/*corpo da pagina - Ultimas noticias*/
+
+.widget_body_flex {
+    display: flex;
+    flex-wrap: wrap;   
+    
+}
+
+.widget_body_flex a {
+    text-decoration: none;  
+}
+
+article {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 30px;
+    margin-right: 40px;
+    margin-top: 20px;
+}
 
 
+.news_data {
+    display: flex;
+}
 
+.news_posted {
+    background-color: #2b4c99;
+    color: white;
+    padding: 10px;
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+.news_coments {
+    padding: 10px;
+    color: white;
+    background-color: #39aae1;
+    font-size: 15px;
+
+}
+
+.widget_title {
+    color: black;
+    font-size: 20px;
+}
+
+.widget_text {
+    color: #5c5c5c;
+    line-height: 23px;
+}
+
+.widget_tumbnail {
+    margin-top: 30px;
+}
+
+.widget_tumbnail img {
+    width: 100%;
+    height: auto;
+}
+
+.container_footer {
+    background-color:blanchedalmond ;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    
+.footer_menu {
+    display: flex;
+    flex-direction: row;
+    width: 990px;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.footer_menu div {
+    flex: 1;
+    height: 170px;
+    padding: 20px;
+}
+
+.fmenu1 {
+    background-color: #39aae1;
+}
+
+.fmenu2 {
+    background-color: #0079c7;
+}
+
+.fmenu3 {
+    background-color: #2b4c99;
+}
+
+.footer_area {
+    display: flex;
+    flex-direction: row;
+    width: 990px;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.footer_area div {
+    margin-right: 20px;
+    flex: 1;
+    height: 170px;
+    background-color: cadetblue;
+    padding: 20px;
+}
 
 
 
