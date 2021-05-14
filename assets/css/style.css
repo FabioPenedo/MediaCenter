@@ -210,6 +210,10 @@ nav a:hover {
     margin-top: 30px;
 }
 
+.widget_title h1 {
+    font-size: 30px;
+}
+
 .widget_title_text {
     font-weight: bold;
     font-size: 22px;
