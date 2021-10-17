@@ -8,8 +8,6 @@
 ![pc](https://user-images.githubusercontent.com/82732587/118203284-1b0af700-b432-11eb-8c11-9df4d82b21d7.gif)
 <hr>
 
-# <a href="https://fabiopenedo.github.io/MediaCenter/">Testar</a> #
-
 ### Usado ###
 + HTML
 + CSS
